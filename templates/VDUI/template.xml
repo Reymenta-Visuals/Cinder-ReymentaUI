@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <cinder>
 <template name="VDRUI: Basic" parent="org.libcinder.apptemplates.basicopengl">
-	<requires>com.videodromm.vdr</requires>
-	<requires>com.videodromm.vdrui</requires>
+	<requires>fr.batchass.vdr</requires>
+	<requires>fr.batchass.vdrui</requires>
 	<requires>nl.cowlumbus.warping</requires>
-	
+		<requires>org.libcinder.OSC</requires>
 	<requires>mb.cinder.midi2</requires>
 	
 	<platform os="msw">

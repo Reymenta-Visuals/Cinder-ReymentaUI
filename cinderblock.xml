@@ -2,7 +2,7 @@
 <cinder>
 <block
 	name="Cinder-VDUI"
-	id="com.videodromm.vdrui"
+	id="fr.batchass.vdrui"
 	author="Bruce Lane"
 	license="MIT"
 	summary="VD UI block for Cinder 0.9: imgui wrapper"
@@ -18,8 +18,8 @@
 	<sourcePattern>src/*.c</sourcePattern>
 	
 	<requires>nl.cowlumbus.warping</requires>
-	<requires>com.videodromm.vd</requires>
-	<requires>com.videodromm.vdui</requires>
+	<requires>fr.batchass.vdr</requires>
+	<requires>fr.batchass.vdrui</requires>
 	
 	<platform os="msw">
 		<requires>fr.batchass.spout</requires>

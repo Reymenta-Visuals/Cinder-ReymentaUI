@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <cinder>
 <block
-	name="Cinder-VDUI"
-	id="fr.batchass.vdrui"
+	name="Cinder-ReymentaUI"
+	id="fr.batchass.ReymentaUI"
 	author="Bruce Lane"
 	license="MIT"
-	summary="VD UI block for Cinder 0.9: imgui wrapper"
+	summary="Reymenta UI block for Cinder 0.9: imgui wrapper"
 	url="https://github.com/Reymenta-Visuals/Cinder-ReymentaUI"
 	git="git://github.com/Reymenta-Visuals/Cinder-ReymentaUI.git"
 	core="true"
@@ -18,8 +18,8 @@
 	<sourcePattern>src/*.c</sourcePattern>
 	
 	<requires>nl.cowlumbus.warping</requires>
-	<requires>fr.batchass.vdr</requires>
-	<requires>fr.batchass.vdrui</requires>
+	<requires>fr.batchass.Reymenta</requires>
+	<requires>fr.batchass.ReymentaUI</requires>
 	
 	<platform os="msw">
 		<requires>fr.batchass.spout</requires>

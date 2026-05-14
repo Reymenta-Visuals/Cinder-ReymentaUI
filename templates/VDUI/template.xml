@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <cinder>
-<template name="VDRUI: Basic" parent="org.libcinder.apptemplates.basicopengl">
-	<requires>fr.batchass.vdr</requires>
-	<requires>fr.batchass.vdrui</requires>
+<template name="ReymentaUI: Basic" parent="org.libcinder.apptemplates.basicopengl">
+	<requires>fr.batchass.Reymenta</requires>
+	<requires>fr.batchass.ReymentaUI</requires>
 	<requires>nl.cowlumbus.warping</requires>
 		<requires>org.libcinder.OSC</requires>
 	<requires>mb.cinder.midi2</requires>

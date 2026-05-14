@@ -36,8 +36,8 @@
 #include "VDMix.h"
 
 // UI
-// #define IMGUI_DISABLE_OBSOLETE_FUNCTIONS 1
 #include "VDUI.h"
+
 using namespace ci;
 using namespace ci::app;
 using namespace videodromm;
@@ -191,7 +191,7 @@ void _TBOX_PREFIX_App::keyUp(KeyEvent event)
 void _TBOX_PREFIX_App::cleanup()
 {
 	CI_LOG_V("cleanup and save");
-	ui::Shutdown();
+
 	mVDSessionFacade->saveWarps();
 	mVDSettings->save();
 	CI_LOG_V("quit");
